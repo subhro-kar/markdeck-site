@@ -51,10 +51,18 @@ nav {
     font-size: 1.2rem;
     font-weight: 700;
     color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 .logo:hover {
     color: var(--accent);
+}
+
+.logo-icon {
+    width: 28px;
+    height: 28px;
 }
 
 .nav-links {
