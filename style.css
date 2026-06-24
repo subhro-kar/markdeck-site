@@ -188,6 +188,26 @@ footer {
     margin-top: 3rem;
 }
 
+.release {
+    border-left: 3px solid var(--accent);
+    padding-left: 1.25rem;
+    margin-bottom: 2.5rem;
+}
+
+.release h2 {
+    font-size: 1.2rem;
+    color: var(--text);
+}
+
+.release ul {
+    padding-left: 1.25rem;
+}
+
+.release li {
+    color: var(--text-muted);
+    line-height: 1.7;
+}
+
 @media (max-width: 600px) {
     .hero h1 {
         font-size: 2rem;
